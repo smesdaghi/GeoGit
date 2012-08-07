@@ -1,0 +1,497 @@
+<class-diagram version="1.0.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="org.geogit.repository.WorkingTree" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/repository/WorkingTree.java" binary="false">    
+    <position height="-1" width="-1" x="485" y="642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="org.geogit.repository.Index" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/repository/Index.java" binary="false">    
+    <position height="-1" width="-1" x="312" y="276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="org.geogit.repository.WorkingTree.DiffTree" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/repository/WorkingTree.java" binary="false">    
+    <position height="-1" width="-1" x="862" y="802"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="org.geogit.repository.WorkingTree.RefToResourceId" 
+    project="geogit" file="/geogit/src/main/java/org/geogit/repository/WorkingTree.java" binary="false">    
+    <position height="-1" width="-1" x="185" y="860"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" corner="BOTTOM_RIGHT" language="java" name="org.geogit.repository.StagingArea" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/repository/StagingArea.java" binary="false">    
+    <position height="-1" width="-1" x="310" y="-63"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="org.geogit.repository.WorkingTree.FeatureInserter" 
+    project="geogit" file="/geogit/src/main/java/org/geogit/repository/WorkingTree.java" binary="false">    
+    <position height="-1" width="-1" x="491" y="877"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="org.geogit.repository.Repository" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/repository/Repository.java" binary="false">    
+    <position height="-1" width="-1" x="833" y="126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.StagingDatabase.PathBinding" 
+    project="geogit" file="/geogit/src/main/java/org/geogit/storage/StagingDatabase.java" binary="false">    
+    <position height="-1" width="-1" x="1237" y="890"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.StagingDatabase" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/storage/StagingDatabase.java" binary="false">    
+    <position height="-1" width="-1" x="1332" y="248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.StagingDatabase.RefBinding" 
+    project="geogit" file="/geogit/src/main/java/org/geogit/storage/StagingDatabase.java" binary="false">    
+    <position height="-1" width="-1" x="1522" y="907"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.StagingDatabase.DiffEntryBinding" 
+    project="geogit" file="/geogit/src/main/java/org/geogit/storage/StagingDatabase.java" binary="false">    
+    <position height="-1" width="-1" x="1267" y="739"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.RevBlob" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/RevBlob.java" binary="false">    
+    <position height="-1" width="-1" x="572" y="1021"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.RevTree" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/RevTree.java" binary="false">    
+    <position height="-1" width="-1" x="856" y="1062"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.RevCommit" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/RevCommit.java" binary="false">    
+    <position height="-1" width="-1" x="550" y="1297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="15" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.RevObject.TYPE" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/RevObject.java" binary="false">    
+    <position height="-1" width="-1" x="1087" y="1229"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="16" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.RevObject" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/RevObject.java" binary="false">    
+    <position height="-1" width="-1" x="1084" y="1037"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.AbstractRevObject" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/AbstractRevObject.java" binary="false">    
+    <position height="-1" width="-1" x="857" y="1255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.CommitOp" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/CommitOp.java" binary="false">    
+    <position height="-1" width="-1" x="1724" y="333"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.AbstractGeoGitOp" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/AbstractGeoGitOp.java" binary="false">    
+    <position height="-1" width="-1" x="1721" y="-43"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.GeoGIT" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/GeoGIT.java" binary="false">    
+    <position height="-1" width="-1" x="1926" y="842"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" corner="BOTTOM_RIGHT" language="java" name="org.geogit.api.ObjectId" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/api/ObjectId.java" binary="false">    
+    <position height="-1" width="-1" x="870" y="1513"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.ObjectDatabase" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/storage/ObjectDatabase.java" binary="false">    
+    <position height="-1" width="-1" x="2104" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="23" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.ObjectWriter" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/storage/ObjectWriter.java" binary="false">    
+    <position height="-1" width="-1" x="2424" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="24" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.BlobWriter" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/storage/BlobWriter.java" binary="false">    
+    <position height="-1" width="-1" x="2423" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="25" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.MutableRevSHA1Tree" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/storage/MutableRevSHA1Tree.java" binary="false">    
+    <position height="-1" width="-1" x="2404" y="370"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="26" corner="BOTTOM_RIGHT" language="java" name="org.geogit.storage.RevSHA1Tree" project="geogit" 
+    file="/geogit/src/main/java/org/geogit/storage/RevSHA1Tree.java" binary="false">    
+    <position height="-1" width="-1" x="1940" y="1354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <nesting id="27">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <generalization id="28">    
+    <bendpoint x="2285" y="1141"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <nesting id="29">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <nesting id="30">    
+    <bendpoint x="1519" y="769"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <association id="31">    
+    <bendpoint x="1610" y="1018"/>    
+    <bendpoint x="1086" y="960"/>    
+    <bendpoint x="1061" y="729"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="32" name="repository"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="34">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="35">    
+    <bendpoint x="1524" y="-171"/>    
+    <bendpoint x="1143" y="-171"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="36" name="repository"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="38">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <realization id="39">    
+    <bendpoint x="1160" y="1122"/>    
+    <bendpoint x="1021" y="1116"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="40">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="41" name="type"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="43">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <association id="45">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="46" name="repository"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="48">    
+    <bendpoint x="1009" y="1358"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="49">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="50" name="parentIds"/>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="53" name="treeId"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="56">    
+    <bendpoint x="706" y="502"/>    
+    <bendpoint x="1012" y="502"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="57" name="indexDatabase"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <bendpoint x="1659" y="570"/>    
+    <bendpoint x="1657" y="1021"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="60" name="parents"/>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="62">    
+    <bendpoint x="1569" y="122"/>    
+    <bendpoint x="1813" y="103"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="65" name="NULL"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <nesting id="68">    
+    <bendpoint x="1422" y="684"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <association id="69">    
+    <bendpoint x="1571" y="134"/>    
+    <bendpoint x="1822" y="118"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="70" name="stagingDb"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="73" name="typeTree"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <bendpoint x="659" y="452"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="76" name="repository"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="78">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <realization id="79">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="80">    
+    <bendpoint x="2" y="455"/>    
+    <bendpoint x="2" y="111"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="81" name="index"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <bendpoint x="1567" y="108"/>    
+    <bendpoint x="1807" y="82"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="84" name="repositoryDb"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="87" name="pathBinding"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="90" name="refBinding"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="92">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="93">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="94" name="id"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <bendpoint x="1123" y="686"/>    
+    <bendpoint x="1122" y="804"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="97" name="keyPathBinding"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="100" name="index"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="103" name="workingTree"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <bendpoint x="2256" y="1114"/>    
+    <bendpoint x="2220" y="416"/>    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="106" name="db"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="108">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <association id="109">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="110" name="diffEntryBinding"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

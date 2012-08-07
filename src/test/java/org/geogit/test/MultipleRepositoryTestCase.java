@@ -96,7 +96,7 @@ public abstract class MultipleRepositoryTestCase extends TestCase {
     
     protected int numberOfRepos;
     
-    protected static final String GEOGIT_URL = "http://localhost:8081/geoserver/geogit";
+    protected static final String GEOGIT_URL = "http://localhost:8080/geoserver/geogit";
     
     public MultipleRepositoryTestCase( int numberOfRepos ) {
         super();
